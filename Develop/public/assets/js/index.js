@@ -54,8 +54,8 @@ const renderActiveNote = () => {
   hide(saveNoteBtn);
 console.log(activeNote); 
   if (activeNote.id) {
-    noteTitle.setAttribute('readonly', true);
-    noteText.setAttribute('readonly', true);
+    //noteTitle.setAttribute('readonly', true); this attribute is not benificial and doesn't allow you to edit your notes so I took it out
+    //noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
     noteText.value = activeNote.text;
   } else {

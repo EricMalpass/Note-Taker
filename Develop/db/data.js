@@ -1,9 +1,9 @@
 const notesArray = [
     {
-      noteTitle : "homework",
-      noteText : "Get it done"
+      title : "homework",
+      text : "Get it done",
+      id : "123456789"
     },
   ];
   
- 
   module.exports = notesArray;
